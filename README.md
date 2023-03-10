@@ -1,3 +1,5 @@
+<strong>Données Jeux vidéo</strong>
+
 Nous aimerions proposer un site qui permet de visualiser graphiquement les jeux vidéo les plus vendus dans le monde. Pour cela, nous avons commencé par chercher un jeu de données qui répertorie diverses données à propos des jeux et nous avons trouvé un dataset sur Kaggle créé par Gregory Smith qui répertorie tous les jeux vendus à plus de 100'000 exemplaires et est basé sur BeautifulSoup, une bibliothèque Python qui permet d'extraire des données à partir de documents HTML et XML. Il l'a webscrapé depuis vgchartz.com avec les données présentes dans la database que l'on peut retrouver dans charts>game totals.
 
 URL dataset: https://www.kaggle.com/datasets/gregorut/videogamesales
