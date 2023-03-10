@@ -24,4 +24,5 @@ Notre but est de représenter ces données de manières plus graphique, grâce �
 Ce dataset a été téléchargé plus de 400'000 fois et on retrouve sur Kaggle plus de 1200 collections utilisant ces données réalisant divers graphiques et nous proposant le code qui permet de les réaliser. On retrouve des remerciements envers Gregory Smith et son jeu de données dans un article. Une recherche de l'Université de Sydney s'est également basé sur ces données, cette recherche analyse la consommation des jeux vidéo partout dans le monde et les tendances dans les genres les plus populaires variants dans le temps.
 
 URL article : https://medium.com/the-peruser/a-brief-history-of-video-game-sales-49edbf831dc
+
 URL Projet universitaire : http://rstudio-pubs-static.s3.amazonaws.com/478680_9fc7dcfb4fda42a1a59cd4af7e763a6c.html
