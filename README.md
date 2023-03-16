@@ -31,4 +31,4 @@ URL Projet universitaire : http://rstudio-pubs-static.s3.amazonaws.com/478680_9f
 
 Wireframe site
 
-![image](https://user-images.githubusercontent.com/114148852/225650141-2fa88e63-65b7-4e4e-88ca-5c7de9b01632.png)
+
