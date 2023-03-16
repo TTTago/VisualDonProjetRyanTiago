@@ -29,6 +29,9 @@ URL article : https://medium.com/the-peruser/a-brief-history-of-video-game-sales
 
 URL Projet universitaire : http://rstudio-pubs-static.s3.amazonaws.com/478680_9fc7dcfb4fda42a1a59cd4af7e763a6c.html
 
-Wireframe site
+
+
+<b>Wireframe site</b>
 
 ![image](https://user-images.githubusercontent.com/114148852/225654802-4e027602-dca5-40df-bd69-34eec9daeddc.png)
+URL vers notre Wireframe sur Figma: https://www.figma.com/file/8w9gLkAduPfkgvs43pMeJ0/VisualDon?node-id=0-1&t=hxinl8G01VIYfROq-0
