@@ -28,3 +28,7 @@ Ce dataset a été téléchargé plus de 400'000 fois et on retrouve sur Kaggle 
 URL article : https://medium.com/the-peruser/a-brief-history-of-video-game-sales-49edbf831dc
 
 URL Projet universitaire : http://rstudio-pubs-static.s3.amazonaws.com/478680_9fc7dcfb4fda42a1a59cd4af7e763a6c.html
+
+Wireframe site
+
+![image](https://user-images.githubusercontent.com/114148852/225650141-2fa88e63-65b7-4e4e-88ca-5c7de9b01632.png)
