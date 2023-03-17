@@ -1,5 +1,6 @@
-<strong>Données Jeux vidéo</strong>
+# Données Jeux vidéo
 
+## Thématique
 Nous aimerions proposer un site qui permet de visualiser graphiquement les jeux vidéo les plus vendus dans le monde. Pour cela, nous avons commencé par chercher un jeu de données qui répertorie diverses données à propos des jeux et nous avons trouvé un dataset sur Kaggle créé par Gregory Smith qui répertorie tous les jeux vendus à plus de 100'000 exemplaires et est basé sur BeautifulSoup, une bibliothèque Python qui permet d'extraire des données à partir de documents HTML et XML. Il l'a webscrapé depuis vgchartz.com avec les données présentes dans la database que l'on peut retrouver dans charts>game totals.
 
 URL dataset: https://www.kaggle.com/datasets/gregorut/videogamesales
@@ -31,7 +32,6 @@ URL Projet universitaire : http://rstudio-pubs-static.s3.amazonaws.com/478680_9f
 
 
 
-<b>Wireframe site</b>
-
+## Wireframe site
 ![image](https://user-images.githubusercontent.com/114148852/225654802-4e027602-dca5-40df-bd69-34eec9daeddc.png)
 URL vers notre Wireframe sur Figma: https://www.figma.com/file/8w9gLkAduPfkgvs43pMeJ0/VisualDon?node-id=0-1&t=hxinl8G01VIYfROq-0
