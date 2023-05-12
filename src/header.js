@@ -14,12 +14,12 @@ select("#titreImage")
 	.attr("width", "700px")
 	.attr("height", "235px");
 
-if (nomPage[0] == "Nintendo") {
+if (nomPage[0] == "nintendo") {
 	select(`#groupeTitre`)
 		.append("image")
 		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "700px");
-} else if (nomPage[0] == "ElectronicArts") {
+} else if (nomPage[0] == "electronicArts") {
 	select(`#groupeTitre`)
 		.append("circle")
 		.attr("r", "105")
@@ -33,12 +33,12 @@ if (nomPage[0] == "Nintendo") {
 		.attr("width", "200px")
 		.attr("x", "250")
 		.attr("y", "10");
-} else if (nomPage[0] == "SquareSoft") {
+} else if (nomPage[0] == "squareSoft") {
 	select(`#groupeTitre`)
 		.append("image")
 		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "700px");
-} else if (nomPage[0] == "Ubisoft" || nomPage[0] == "Take-TwoInteractive") {
+} else if (nomPage[0] == "ubisoft" || nomPage[0] == "take-TwoInteractive") {
 	select(`#groupeTitre`)
 		.append("rect")
 		.attr("width", "220")
@@ -52,7 +52,7 @@ if (nomPage[0] == "Nintendo") {
 		.attr("width", "200px")
 		.attr("x", "260")
 		.attr("y", "10");
-} else if (nomPage[0] == "Activision") {
+} else if (nomPage[0] == "activision") {
 	select(`#groupeTitre`)
 		.append("rect")
 		.attr("width", "620")
@@ -65,7 +65,7 @@ if (nomPage[0] == "Nintendo") {
 		.attr("width", "600px")
 		.attr("x", "10")
 		.attr("y", "10");
-} else if (nomPage[0] == "BethesdaSoftworks") {
+} else if (nomPage[0] == "bethesdaSoftworks") {
 	select(`#groupeTitre`)
 		.append("rect")
 		.attr("width", "620")
