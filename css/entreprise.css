@@ -1,0 +1,38 @@
+#titreImage {
+	text-align: center;
+}
+
+#listeConsoles {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.titreConsole {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.uniteVendue {
+	font-size: 20px;
+}
+
+body {
+	font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+		Arial, sans-serif;
+	color: white;
+}
+
+h1 {
+	font-size: 35px;
+	margin-bottom: 100px;
+}
+
+div {
+	text-align: center;
+}
+
+#jeuxEntreprise {
+	width: windowinnerWidth;
+	overflow-x: auto;
+	white-space: nowrap;
+}
