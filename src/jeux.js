@@ -1,5 +1,4 @@
 import { select } from "d3-selection";
-import { csv } from "d3-fetch";
 import * as d3 from "d3";
 
 select("body").append("div").attr("id", "jeuxEntreprise");
@@ -249,7 +248,7 @@ var url = window.location.pathname;
 var filename = url.substring(url.lastIndexOf("/") + 1);
 let nomPage = filename.split(".");
 
-csv("/dataset/vgsales.csv").then(function (data) {
+d3.csv("/dataset/vgsales.csv").then(function (data) {
 	console.log(data);
 
 	const chercheMot = (mot) => {
