@@ -50,7 +50,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[0]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[0]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
@@ -80,7 +80,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[1]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[1]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
@@ -110,7 +110,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[2]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[2]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
@@ -176,7 +176,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[0]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[0]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
@@ -206,7 +206,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[1]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[1]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
@@ -236,7 +236,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[2]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[2]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
@@ -301,7 +301,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[0]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[0]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
@@ -331,7 +331,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[1]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[1]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
@@ -361,7 +361,7 @@ if (nomPage[0] == "SonyComputerEntertainment") {
 				.append("image")
 				.attr(
 					"xlink:href",
-					`./images/consoles/${tableauConsoles[2]["Console Name"]}.svg`
+					`../images/consoles/${tableauConsoles[2]["Console Name"]}.svg`
 				)
 				.attr("width", "300px");
 
