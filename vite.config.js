@@ -16,7 +16,7 @@ export default defineConfig({
 				src: resolve(__dirname, "src/SonyComputerEntertainment.html"),
 				src: resolve(__dirname, "src/SquareSoft.html"),
 				src: resolve(__dirname, "src/Ubisoft.html"),
-				src: resolve(__dirname, "src/Nintendo.html"),
+				nintendo: resolve(__dirname, "src/Nintendo.html"),
 				src: resolve(__dirname, "src/Take-TwoInteractive.html"),
 			},
 		},

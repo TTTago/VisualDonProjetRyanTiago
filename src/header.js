@@ -19,7 +19,7 @@ if (nomPage[0] == "nintendo") {
 		.append("image")
 		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "700px");
-} else if (nomPage[0] == "electronicArts") {
+} else if (nomPage[0] == "electronicarts") {
 	select(`#groupeTitre`)
 		.append("circle")
 		.attr("r", "105")
@@ -38,7 +38,7 @@ if (nomPage[0] == "nintendo") {
 		.append("image")
 		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "700px");
-} else if (nomPage[0] == "ubisoft" || nomPage[0] == "take-TwoInteractive") {
+} else if (nomPage[0] == "ubisoft" || nomPage[0] == "take-twointeractive") {
 	select(`#groupeTitre`)
 		.append("rect")
 		.attr("width", "220")
@@ -65,7 +65,7 @@ if (nomPage[0] == "nintendo") {
 		.attr("width", "600px")
 		.attr("x", "10")
 		.attr("y", "10");
-} else if (nomPage[0] == "bethesdaSoftworks") {
+} else if (nomPage[0] == "bethesdasoftworks") {
 	select(`#groupeTitre`)
 		.append("rect")
 		.attr("width", "620")
