@@ -6,6 +6,8 @@ var url = window.location.pathname;
 var filename = url.substring(url.lastIndexOf("/") + 1);
 let nomPage = filename.split(".");
 
+console.log(nomPage[0]);
+
 select("#titreImage")
 	.append("svg")
 	.attr("id", "groupeTitre")
