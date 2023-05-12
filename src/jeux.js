@@ -250,6 +250,8 @@ var filename = url.substring(url.lastIndexOf("/") + 1);
 let nomPage = filename.split(".");
 
 csv("/dataset/vgsales.csv").then(function (data) {
+	console.log(data);
+
 	const chercheMot = (mot) => {
 		let count = 0;
 		data.forEach((jeu) => {
