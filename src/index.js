@@ -48,7 +48,7 @@ csv("../dataset/vgsales.csv").then(function (data) {
 
 		select("svg")
 			.append("a")
-			.attr("href", `pageEntreprise/${publisher}.html`)
+			.attr("href", `${publisher}.html`)
 			.attr("id", `${publisher}`);
 
 		select(`#${publisher}`)
@@ -60,6 +60,7 @@ csv("../dataset/vgsales.csv").then(function (data) {
 	});
 });
 
+/*
 var svg = select("#bulleEntreprise")
 	.append("svg")
 	.attr("id", "image")
@@ -108,3 +109,4 @@ var svg = select("#bulleEntreprise")
 
 	simulation.nodes(tableauPublisher10).on("tick", ticked);
 })();
+*/
