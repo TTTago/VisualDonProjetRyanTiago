@@ -249,7 +249,7 @@ var url = window.location.pathname;
 var filename = url.substring(url.lastIndexOf("/") + 1);
 let nomPage = filename.split(".");
 
-csv("../dataset/vgsales.csv").then(function (data) {
+csv("/dataset/vgsales.csv").then(function (data) {
 	const chercheMot = (mot) => {
 		let count = 0;
 		data.forEach((jeu) => {
