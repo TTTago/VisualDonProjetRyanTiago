@@ -48,7 +48,7 @@ csv("../dataset/vgsales.csv").then(function (data) {
 
 		select("svg")
 			.append("a")
-			.attr("href", `./src/${publisher}.html`)
+			.attr("href", `src/${publisher}.html`)
 			.attr("id", `${publisher}`);
 
 		select(`#${publisher}`)
