@@ -15,7 +15,7 @@ select("#titreImage")
 if (nomPage[0] == "Nintendo") {
 	select(`#groupeTitre`)
 		.append("image")
-		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
+		.attr("xlink:href", `./images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "700px");
 } else if (nomPage[0] == "ElectronicArts") {
 	select(`#groupeTitre`)
@@ -27,14 +27,14 @@ if (nomPage[0] == "Nintendo") {
 
 	select(`#groupeTitre`)
 		.append("image")
-		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
+		.attr("xlink:href", `./images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "200px")
 		.attr("x", "250")
 		.attr("y", "10");
 } else if (nomPage[0] == "SquareSoft") {
 	select(`#groupeTitre`)
 		.append("image")
-		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
+		.attr("xlink:href", `./images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "700px");
 } else if (nomPage[0] == "Ubisoft" || nomPage[0] == "Take-TwoInteractive") {
 	select(`#groupeTitre`)
@@ -46,7 +46,7 @@ if (nomPage[0] == "Nintendo") {
 
 	select(`#groupeTitre`)
 		.append("image")
-		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
+		.attr("xlink:href", `./images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "200px")
 		.attr("x", "260")
 		.attr("y", "10");
@@ -59,7 +59,7 @@ if (nomPage[0] == "Nintendo") {
 
 	select(`#groupeTitre`)
 		.append("image")
-		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
+		.attr("xlink:href", `./images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "600px")
 		.attr("x", "10")
 		.attr("y", "10");
@@ -72,7 +72,7 @@ if (nomPage[0] == "Nintendo") {
 
 	select(`#groupeTitre`)
 		.append("image")
-		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
+		.attr("xlink:href", `./images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "600px")
 		.attr("x", "10")
 		.attr("y", "10");
@@ -85,7 +85,7 @@ if (nomPage[0] == "Nintendo") {
 
 	select(`#groupeTitre`)
 		.append("image")
-		.attr("xlink:href", `../images/logoEntreprise/${nomPage[0]}.svg`)
+		.attr("xlink:href", `./images/logoEntreprise/${nomPage[0]}.svg`)
 		.attr("width", "600px")
 		.attr("x", "10")
 		.attr("y", "10");

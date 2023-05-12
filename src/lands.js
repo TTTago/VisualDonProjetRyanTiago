@@ -215,7 +215,7 @@ select("#Regions").append("div").attr("id", "JP");
 var map1 = d3.select("#NA");
 
 // Chargez le fichier SVG pour la France avec d3-fetch
-d3.text("../images/lands/NA.svg").then(function (svgText) {
+d3.text("./images/lands/NA.svg").then(function (svgText) {
 	var parser = new DOMParser();
 	var svg = parser.parseFromString(svgText, "image/svg+xml").documentElement;
 	map1.node().appendChild(svg);
@@ -224,7 +224,7 @@ d3.text("../images/lands/NA.svg").then(function (svgText) {
 var map2 = d3.select("#EU");
 
 // Chargez le fichier SVG pour la France avec d3-fetch
-d3.text("../images/lands/EU.svg").then(function (svgText) {
+d3.text("./images/lands/EU.svg").then(function (svgText) {
 	var parser = new DOMParser();
 	var svg = parser.parseFromString(svgText, "image/svg+xml").documentElement;
 	map2.node().appendChild(svg);
@@ -233,7 +233,7 @@ d3.text("../images/lands/EU.svg").then(function (svgText) {
 var map3 = d3.select("#JP");
 
 // Chargez le fichier SVG pour la France avec d3-fetch
-d3.text("../images/lands/JP.svg").then(function (svgText) {
+d3.text("./images/lands/JP.svg").then(function (svgText) {
 	var parser = new DOMParser();
 	var svg = parser.parseFromString(svgText, "image/svg+xml").documentElement;
 	map3.node().appendChild(svg);

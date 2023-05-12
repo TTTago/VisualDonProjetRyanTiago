@@ -311,7 +311,7 @@ csv("../dataset/vgsales.csv").then(function (data) {
 
 		select(`#jeu${i}`)
 			.append("image")
-			.attr("xlink:href", `../images/licence/${jeu.name}.svg`)
+			.attr("xlink:href", `./images/licence/${jeu.name}.svg`)
 			.attr("width", radiusScale(jeu.amount))
 			.attr("y", 300 - radiusScale(jeu.amount))
 			.attr("alignment-baseline", "middle");

@@ -20,7 +20,7 @@ select("#bulleEntreprise")
 	.attr("height", "800px")
 	.attr("width", largeur);
 
-csv("dataset/vgsales.csv").then(function (data) {
+csv("../dataset/vgsales.csv").then(function (data) {
 	let tableauPublisher = [...new Set(data.map((d) => d.Publisher))];
 	//console.log(data);
 	for (let i = 0; i < 10; i++) {
@@ -53,7 +53,7 @@ csv("dataset/vgsales.csv").then(function (data) {
 
 		select(`#${publisher}`)
 			.append("image")
-			.attr("xlink:href", `images/logoEntreprise/${publisher}.svg`)
+			.attr("xlink:href", `./images/logoEntreprise/${publisher}.svg`)
 			.attr("width", chercheMot(publisher))
 			.attr("x", Math.random() * (largeur - chercheMot(publisher)))
 			.attr("y", Math.random() * (800 - 250));
@@ -92,7 +92,7 @@ var svg = select("#bulleEntreprise")
 		.data(tableauPublisher10)
 		.enter()
 		.append("image")
-		.attr("xlink:href", `images/logoEntreprise/${nomEntreprise}.svg`)
+		.attr("xlink:href", `./images/logoEntreprise/${nomEntreprise}.svg`)
 		.attr("width", chercheMot(nomEntreprise))
 		.attr("class", "entreprise").attr;
 

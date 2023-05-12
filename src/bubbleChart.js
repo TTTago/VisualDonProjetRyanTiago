@@ -323,7 +323,7 @@ csv("dataset/vgsales.csv").then(function (data) {
 			.attr("width", "1")
 			.attr("preserveAspectRatio", "none")
 			.attr("xmlns:xlink", "http://www.w3.org/1999/xlink")
-			.attr("xlink:href", `images/licencepng/${jeuSansEspace}.png`);
+			.attr("xlink:href", `./images/licencepng/${jeuSansEspace}.png`);
 	});
 
 	(function () {
