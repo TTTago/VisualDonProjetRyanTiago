@@ -326,6 +326,14 @@ csv("dataset/vgsales.csv").then(function (data) {
 			.attr("xlink:href", `../images/licencepng/${jeuSansEspace}.png`);
 	});
 
+	for (let i = 1; i < 12; i++) {
+		select("#bulle")
+			.append("text")
+			.attr("id", `texte${i}`)
+			.attr("fill", "black")
+			.attr("class", "motBubbleChart");
+	}
+
 	(function () {
 		var etat = "normal";
 
@@ -336,33 +344,51 @@ csv("dataset/vgsales.csv").then(function (data) {
 
 		var forceX = d3.forceX(function (d) {
 			if (etat == "editeur") {
+				select("#texte11").text("");
+
+				select("#texte1").attr("x", "100").attr("y", "60").text("Nintendo");
 				if (d.company == "Nintendo") {
 					return 250;
 				}
+				select("#texte6").attr("x", "700").attr("y", "350").text("SEGA");
 				if (d.company == "SEGA") {
 					return 700;
 				}
+				select("#texte4").attr("x", "100").attr("y", "500").text("Microsoft");
 				if (d.company == "MicrosoftGameStudios") {
 					return 200;
 				}
+				select("#texte10").attr("x", "100").attr("y", "750").text("Ubisoft");
 				if (d.company == "Ubisoft") {
 					return 250;
 				}
+				select("#texte2").attr("x", "500").attr("y", "30").text("Activision");
 				if (d.company == "Activision") {
 					return 700;
 				}
+				select("#texte5").attr("x", "400").attr("y", "500").text("Sony");
 				if (d.company == "SonyComputerEntertainment") {
 					return 500;
 				}
+				select("#texte9").attr("x", "600").attr("y", "800").text("Bethesda");
 				if (d.company == "BethesdaSoftworks") {
 					return 700;
 				}
+				select("#texte3").attr("x", "1150").attr("y", "30").text("SquareSoft");
 				if (d.company == "SquareSoft") {
 					return largeur - 200;
 				}
+				select("#texte7")
+					.attr("x", "1000")
+					.attr("y", "350")
+					.text("Take-Two Interactive");
 				if (d.company == "Take-TwoInteractive") {
 					return largeur - 200;
 				}
+				select("#texte8")
+					.attr("x", "1100")
+					.attr("y", "600")
+					.text("Electronic Arts");
 				if (d.company == "ElectronicArts") {
 					return largeur - 250;
 				} else {
@@ -370,41 +396,49 @@ csv("dataset/vgsales.csv").then(function (data) {
 				}
 			}
 			if (etat == "genre") {
+				select("#texte1").attr("x", "50").attr("y", "60").text("Action");
 				if (d.genre == "Action") {
 					return 200;
 				}
+				select("#texte2").attr("x", "50").attr("y", "600").text("Sports");
 				if (d.genre == "Sports") {
 					return 200;
 				}
+				select("#texte3").attr("x", "100").attr("y", "850").text("Platforme");
 				if (d.genre == "Platform") {
 					return 200;
 				}
+				select("#texte4").attr("x", "400").attr("y", "40").text("Course");
 				if (d.genre == "Racing") {
 					return 500;
 				}
+				select("#texte5").attr("x", "400").attr("y", "270").text("Jeux de rôles");
 				if (d.genre == "Role-Playing") {
 					return 600;
 				}
+				select("#texte6").attr("x", "500").attr("y", "650").text("Puzzle");
 				if (d.genre == "Puzzle") {
 					return 520;
 				}
+				select("#texte7").attr("x", "700").attr("y", "40").text("Divers");
 				if (d.genre == "Misc") {
 					return 750;
 				}
+				select("#texte8").attr("x", "1000").attr("y", "600").text("Jeux de tir");
 				if (d.genre == "Shooter") {
 					return 1000;
 				}
+				select("#texte9").attr("x", "1100").attr("y", "400").text("Simulation");
 				if (d.genre == "Simulation") {
 					return 1000;
 				}
+				select("#texte10").attr("x", "950").attr("y", "40").text("Combat");
 				if (d.genre == "Fighting") {
 					return 1000;
 				}
+				select("#texte11").attr("x", "1150").attr("y", "100").text("Aventure");
 				if (d.genre == "Adventure") {
 					return 1200;
-				}
-				if (d.genre == "Strategy") {
-					return 1000;
 				} else {
 					return -100;
 				}
@@ -557,6 +591,8 @@ csv("dataset/vgsales.csv").then(function (data) {
 				.force("y", d3.forceY(height / 2).strength(0.05))
 				.alphaTarget(0.15)
 				.restart();
+
+			d3.selectAll(".motBubbleChart").text("");
 		});
 
 		simulation.nodes(tableauJeuxVideos).on("tick", ticked);
