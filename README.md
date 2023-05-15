@@ -38,3 +38,4 @@ URL vers notre Wireframe sur Figma: https://www.figma.com/file/8w9gLkAduPfkgvs43
 ## Lien vers notre site
 
 https://paysage-jeux-videos.netlify.app
+Nous avons eu un problème lors du build, le code javascript des pages entreprises ne fonctionne pas.
