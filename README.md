@@ -38,4 +38,4 @@ URL vers notre Wireframe sur Figma: https://www.figma.com/file/8w9gLkAduPfkgvs43
 ## Lien vers notre site
 
 https://paysage-jeux-videos.netlify.app <br/>
-Nous avons eu un problème lors du build, le code javascript des pages entreprises ne fonctionne pas.
+Nous avons eu un problème lors du build, le code javascript des pages entreprises ne fonctionne pas. Il est également possible que certains éléments du Bubble Chart ne s'affiche pas correctement en fonction de la taille de la page.
