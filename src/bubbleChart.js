@@ -416,7 +416,7 @@ csv("dataset/vgsales.csv").then(function (data) {
 				if (d.genre == "Role-Playing") {
 					return 600;
 				}
-				select("#texte6").attr("x", "500").attr("y", "650").text("Puzzle");
+				select("#texte6").attr("x", "550").attr("y", "650").text("Puzzle");
 				if (d.genre == "Puzzle") {
 					return 520;
 				}
