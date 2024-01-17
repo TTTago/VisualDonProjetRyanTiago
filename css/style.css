@@ -1,6 +1,7 @@
 body {
 	font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
 		Arial, sans-serif;
+		padding: 0 0 3rem;
 }
 
 h1 {
